@@ -39,10 +39,10 @@
             </objects>
             <point key="canvasLocation" x="1114" y="92"/>
         </scene>
-        <!--View Controller-->
+        <!--Opcion3 View Controller-->
         <scene sceneID="btm-hC-Ute">
             <objects>
-                <viewController id="TZb-Xu-P9Q" sceneMemberID="viewController">
+                <viewController id="TZb-Xu-P9Q" customClass="Opcion3ViewController" customModule="Parcial" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XkD-Hh-mFo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -100,10 +100,10 @@
             </objects>
             <point key="canvasLocation" x="2095.6521739130435" y="543.75"/>
         </scene>
-        <!--View Controller-->
+        <!--Opcion2 View Controller-->
         <scene sceneID="nPF-0R-YbO">
             <objects>
-                <viewController id="LFB-Lw-OCt" sceneMemberID="viewController">
+                <viewController id="LFB-Lw-OCt" customClass="Opcion2ViewController" customModule="Parcial" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DQQ-7M-CEw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -129,10 +129,10 @@
             </objects>
             <point key="canvasLocation" x="3069.5652173913045" y="91.741071428571431"/>
         </scene>
-        <!--View Controller-->
+        <!--Opcion1 View Controller-->
         <scene sceneID="KVV-xP-hvG">
             <objects>
-                <viewController id="DNw-Ke-i9r" sceneMemberID="viewController">
+                <viewController id="DNw-Ke-i9r" customClass="Opcion1ViewController" customModule="Parcial" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NVB-Xq-6mk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -156,7 +156,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fjd-6E-GFE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2096" y="-382"/>
+            <point key="canvasLocation" x="2096" y="-380"/>
         </scene>
     </scenes>
     <resources>

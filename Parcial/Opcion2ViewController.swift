@@ -4,5 +4,12 @@
 //
 //  Created by user195154 on 5/28/22.
 //
+import UIKit
 
-import Foundation
+class Opcion2ViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+}
