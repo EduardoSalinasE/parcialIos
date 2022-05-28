@@ -138,18 +138,19 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDw-lR-0aE">
-                                        <rect key="frame" x="30" y="47" width="46" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDw-lR-0aE" customClass="btnAtras" customModule="Parcial" customModuleProvider="target">
+                                        <rect key="frame" x="30" y="36" width="19.5" height="52"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="arrow.backward" catalog="system"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <constraints>
-                                    <constraint firstItem="eDw-lR-0aE" firstAttribute="leading" secondItem="fmT-ig-qIr" secondAttribute="leading" constant="30" id="5lt-Sh-ekr"/>
+                                    <constraint firstItem="eDw-lR-0aE" firstAttribute="top" secondItem="fmT-ig-qIr" secondAttribute="top" constant="36" id="63P-yN-Fe1"/>
+                                    <constraint firstItem="eDw-lR-0aE" firstAttribute="leading" secondItem="fmT-ig-qIr" secondAttribute="leading" constant="30" id="6WY-0w-ULL"/>
                                     <constraint firstAttribute="height" constant="90" id="CkG-jC-zLv"/>
                                     <constraint firstItem="cg7-9z-Qiu" firstAttribute="top" secondItem="fmT-ig-qIr" secondAttribute="top" constant="52" id="FLG-VB-rhP"/>
-                                    <constraint firstAttribute="bottom" secondItem="eDw-lR-0aE" secondAttribute="bottom" constant="13" id="aTm-Jr-kSV"/>
-                                    <constraint firstItem="eDw-lR-0aE" firstAttribute="top" secondItem="fmT-ig-qIr" secondAttribute="top" constant="47" id="hOJ-MR-uku"/>
+                                    <constraint firstAttribute="bottom" secondItem="eDw-lR-0aE" secondAttribute="bottom" constant="2" id="kZ2-Sy-96M"/>
                                     <constraint firstAttribute="trailing" secondItem="cg7-9z-Qiu" secondAttribute="trailing" constant="186" id="ktx-EK-c6M"/>
                                     <constraint firstAttribute="bottom" secondItem="cg7-9z-Qiu" secondAttribute="bottom" constant="17" id="t7b-1G-Wc3"/>
                                 </constraints>
@@ -196,6 +197,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Slh-0k-fCC"/>
+                    <connections>
+                        <outlet property="atras" destination="eDw-lR-0aE" id="7MX-em-c4h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Be1-H9-bCp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -276,20 +280,24 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9EX-Bj-n1t">
-                                        <rect key="frame" x="30" y="40" width="46" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9EX-Bj-n1t">
+                                        <rect key="frame" x="30" y="30" width="19.5" height="50"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="arrow.backward" catalog="system"/>
+                                        <connections>
+                                            <action selector="botonAtras:" destination="DNw-Ke-i9r" eventType="touchUpInside" id="NBq-dW-Ldr"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="H4t-fC-2EG" secondAttribute="trailing" constant="186" id="85b-ul-W13"/>
                                     <constraint firstItem="H4t-fC-2EG" firstAttribute="top" secondItem="tnG-uk-arF" secondAttribute="top" constant="45" id="9tQ-fM-QDy"/>
-                                    <constraint firstItem="9EX-Bj-n1t" firstAttribute="top" secondItem="tnG-uk-arF" secondAttribute="top" constant="40" id="YGO-ai-Lu9"/>
+                                    <constraint firstItem="9EX-Bj-n1t" firstAttribute="leading" secondItem="tnG-uk-arF" secondAttribute="leading" constant="30" id="HWW-kZ-Up2"/>
+                                    <constraint firstAttribute="bottom" secondItem="9EX-Bj-n1t" secondAttribute="bottom" constant="10" id="Qzn-u8-lkx"/>
+                                    <constraint firstItem="9EX-Bj-n1t" firstAttribute="top" secondItem="tnG-uk-arF" secondAttribute="top" constant="30" id="Yfh-ne-SGD"/>
                                     <constraint firstAttribute="height" constant="90" id="dox-FZ-gTJ"/>
-                                    <constraint firstItem="9EX-Bj-n1t" firstAttribute="leading" secondItem="tnG-uk-arF" secondAttribute="leading" constant="30" id="f7G-ab-Sj8"/>
                                     <constraint firstAttribute="bottom" secondItem="H4t-fC-2EG" secondAttribute="bottom" constant="24" id="fws-SN-7a8"/>
-                                    <constraint firstAttribute="bottom" secondItem="9EX-Bj-n1t" secondAttribute="bottom" constant="20" symbolic="YES" id="vtu-L3-6U4"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5oZ-FS-ocs">
@@ -319,6 +327,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
