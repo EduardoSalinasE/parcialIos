@@ -23,12 +23,12 @@
             </objects>
             <point key="canvasLocation" x="126" y="92"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Parcial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Parcial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s92-jt-eoV">
@@ -90,16 +90,16 @@
                                 </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pa0-gG-k2d">
-                                <rect key="frame" x="0.0" y="150" width="414" height="746"/>
+                                <rect key="frame" x="0.0" y="150" width="414" height="1050"/>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="pa0-gG-k2d" secondAttribute="bottom" id="2Dd-by-xOw"/>
                             <constraint firstAttribute="trailing" secondItem="s92-jt-eoV" secondAttribute="trailing" id="ADs-Dt-lf2"/>
                             <constraint firstItem="gyp-5P-ABO" firstAttribute="width" secondItem="rfy-9S-R9b" secondAttribute="width" id="G4s-KV-CtL"/>
-                            <constraint firstItem="pa0-gG-k2d" firstAttribute="top" secondItem="rfy-9S-R9b" secondAttribute="bottom" id="KmB-mh-hwt"/>
+                            <constraint firstAttribute="trailing" secondItem="pa0-gG-k2d" secondAttribute="trailing" id="Ivm-Y8-GX9"/>
+                            <constraint firstItem="pa0-gG-k2d" firstAttribute="top" secondItem="rfy-9S-R9b" secondAttribute="bottom" id="JeU-Pr-WgA"/>
                             <constraint firstItem="rfy-9S-R9b" firstAttribute="top" secondItem="s92-jt-eoV" secondAttribute="bottom" id="MLr-MK-R7P"/>
                             <constraint firstItem="s92-jt-eoV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Tcb-Yr-3a0"/>
                             <constraint firstItem="s92-jt-eoV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Uau-gE-bye"/>
@@ -108,14 +108,14 @@
                             <constraint firstItem="rfy-9S-R9b" firstAttribute="leading" secondItem="gyp-5P-ABO" secondAttribute="trailing" id="eFl-Hh-lew"/>
                             <constraint firstItem="7Fw-Vh-Hab" firstAttribute="top" secondItem="s92-jt-eoV" secondAttribute="bottom" id="f2Z-ad-3sQ"/>
                             <constraint firstAttribute="trailing" secondItem="7Fw-Vh-Hab" secondAttribute="trailing" id="fUC-Pw-ES6"/>
-                            <constraint firstAttribute="trailing" secondItem="pa0-gG-k2d" secondAttribute="trailing" id="mp9-dG-8z4"/>
-                            <constraint firstItem="pa0-gG-k2d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sAF-Gn-3L5"/>
+                            <constraint firstItem="pa0-gG-k2d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="n46-16-Gr5"/>
+                            <constraint firstAttribute="bottom" secondItem="pa0-gG-k2d" secondAttribute="bottom" id="sG2-nv-mwX"/>
                             <constraint firstItem="gyp-5P-ABO" firstAttribute="top" secondItem="s92-jt-eoV" secondAttribute="bottom" id="w5c-Yn-Stt"/>
                             <constraint firstItem="gyp-5P-ABO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xPp-C9-IlX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="oPY-rg-3LQ"/>
-                    <size key="freeformSize" width="414" height="896"/>
+                    <size key="freeformSize" width="414" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
