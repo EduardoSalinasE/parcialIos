@@ -10,6 +10,11 @@ class Opcion2ViewController: UIViewController {
     
 
     
+    @IBAction func irAtrasHome3(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
