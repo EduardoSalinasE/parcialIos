@@ -138,10 +138,13 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDw-lR-0aE" customClass="btnAtras" customModule="Parcial" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDw-lR-0aE">
                                         <rect key="frame" x="30" y="36" width="19.5" height="52"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" image="arrow.backward" catalog="system"/>
+                                        <connections>
+                                            <action selector="clickbtnBack2:" destination="TZb-Xu-P9Q" eventType="touchUpInside" id="74J-Wf-XfX"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
@@ -225,6 +228,10 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Zp-Oz-iay">
                                         <rect key="frame" x="30" y="47" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="btnAtras2:" destination="tOs-5G-5zb" eventType="touchUpInside" id="Sa7-sI-3Bk"/>
+                                            <action selector="clickbtnBack1:" destination="LFB-Lw-OCt" eventType="touchUpInside" id="Ayi-5n-Bha"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
@@ -260,6 +267,7 @@
                     <navigationItem key="navigationItem" id="cYe-pb-mj1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lmE-f8-IWJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="tOs-5G-5zb" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3069.5652173913045" y="91.741071428571431"/>
         </scene>
@@ -286,6 +294,7 @@
                                         <state key="normal" image="arrow.backward" catalog="system"/>
                                         <connections>
                                             <action selector="botonAtras:" destination="DNw-Ke-i9r" eventType="touchUpInside" id="NBq-dW-Ldr"/>
+                                            <action selector="clickbtnBack:" destination="DNw-Ke-i9r" eventType="touchUpInside" id="QYI-9D-l6x"/>
                                         </connections>
                                     </button>
                                 </subviews>
