@@ -89,7 +89,7 @@
                                     <segue destination="DNw-Ke-i9r" kind="presentation" modalPresentationStyle="fullScreen" id="4FS-PH-n7j"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pa0-gG-k2d">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pa0-gG-k2d">
                                 <rect key="frame" x="0.0" y="150" width="414" height="1050"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1s0-X1-45q">
@@ -111,12 +111,13 @@
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LHg-7I-pRn">
                                         <rect key="frame" x="107" y="196.5" width="200" height="200"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="Jki-d8-lxT"/>
                                             <constraint firstAttribute="width" constant="200" id="hdX-HM-CGo"/>
                                         </constraints>
                                     </imageView>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Rw-u6-f7U">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Rw-u6-f7U">
                                         <rect key="frame" x="27" y="799" width="359" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -126,6 +127,7 @@
                                 <constraints>
                                     <constraint firstItem="7Rw-u6-f7U" firstAttribute="trailing" secondItem="1s0-X1-45q" secondAttribute="trailing" id="2fu-u1-bqx"/>
                                     <constraint firstItem="LHg-7I-pRn" firstAttribute="top" secondItem="1s0-X1-45q" secondAttribute="bottom" constant="70" id="3Fk-lN-bHJ"/>
+                                    <constraint firstItem="7Rw-u6-f7U" firstAttribute="top" secondItem="LHg-7I-pRn" secondAttribute="bottom" constant="402.5" id="BkM-54-C1v"/>
                                     <constraint firstItem="1s0-X1-45q" firstAttribute="top" secondItem="pa0-gG-k2d" secondAttribute="top" constant="25" id="Gaw-0h-HGj"/>
                                     <constraint firstItem="x5I-pF-0bA" firstAttribute="top" secondItem="1s0-X1-45q" secondAttribute="bottom" constant="17" id="Inz-yc-agH"/>
                                     <constraint firstItem="1s0-X1-45q" firstAttribute="leading" secondItem="pa0-gG-k2d" secondAttribute="leading" constant="27" id="JtC-vb-c8G"/>
