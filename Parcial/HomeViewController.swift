@@ -39,10 +39,12 @@ class HomeViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.registerKeyboardNotifications()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
+        self.unregisterKeyboardNotifications()
     }
     
     
@@ -55,7 +57,7 @@ extension HomeViewController {
                                                name: UIResponder.keyboardWillShowNotification, object: nil)
         
         NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardWillHide(_:)),
-                                               name: UIResponder.keyboardDidHideNotification, object: nil)
+                                               name: UIResponder.keyboardWillHideNotification, object: nil)
         
     }
     

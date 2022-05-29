@@ -28,7 +28,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Parcial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s92-jt-eoV">
@@ -90,7 +90,7 @@
                                 </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pa0-gG-k2d">
-                                <rect key="frame" x="0.0" y="150" width="414" height="1050"/>
+                                <rect key="frame" x="0.0" y="150" width="414" height="850"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1s0-X1-45q">
                                         <rect key="frame" x="27" y="25" width="359" height="101.5"/>
@@ -111,7 +111,7 @@
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LHg-7I-pRn">
                                         <rect key="frame" x="107" y="196.5" width="200" height="200"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="Jki-d8-lxT"/>
                                             <constraint firstAttribute="width" constant="200" id="hdX-HM-CGo"/>
@@ -155,10 +155,10 @@
                                     <constraint firstItem="7Rw-u6-f7U" firstAttribute="leading" secondItem="1s0-X1-45q" secondAttribute="leading" id="OU2-3Q-NJi"/>
                                     <constraint firstItem="77i-Kf-h5L" firstAttribute="top" secondItem="LHg-7I-pRn" secondAttribute="bottom" constant="40.5" id="P2d-9D-t7o"/>
                                     <constraint firstItem="x5I-pF-0bA" firstAttribute="trailing" secondItem="1s0-X1-45q" secondAttribute="trailing" id="QfG-b8-cvl"/>
+                                    <constraint firstAttribute="bottom" secondItem="7Rw-u6-f7U" secondAttribute="bottom" constant="20" id="Tj0-TC-ESL"/>
                                     <constraint firstItem="7Rw-u6-f7U" firstAttribute="top" secondItem="Xfa-Jn-Qtj" secondAttribute="bottom" constant="138.5" id="ZS4-Nz-hZ0"/>
                                     <constraint firstItem="77i-Kf-h5L" firstAttribute="trailing" secondItem="1s0-X1-45q" secondAttribute="trailing" id="eJc-k3-qvO"/>
                                     <constraint firstItem="LHg-7I-pRn" firstAttribute="centerX" secondItem="pa0-gG-k2d" secondAttribute="centerX" id="ept-WH-CVa"/>
-                                    <constraint firstAttribute="bottom" secondItem="7Rw-u6-f7U" secondAttribute="bottom" constant="200" id="hrd-Tr-PXk"/>
                                     <constraint firstAttribute="trailing" secondItem="1s0-X1-45q" secondAttribute="trailing" constant="28" id="zOt-mg-ihl"/>
                                 </constraints>
                                 <connections>
@@ -169,6 +169,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="pa0-gG-k2d" secondAttribute="bottom" id="47r-08-p03"/>
                             <constraint firstAttribute="trailing" secondItem="s92-jt-eoV" secondAttribute="trailing" id="ADs-Dt-lf2"/>
                             <constraint firstItem="gyp-5P-ABO" firstAttribute="width" secondItem="rfy-9S-R9b" secondAttribute="width" id="G4s-KV-CtL"/>
                             <constraint firstAttribute="trailing" secondItem="pa0-gG-k2d" secondAttribute="trailing" id="Ivm-Y8-GX9"/>
@@ -182,15 +183,14 @@
                             <constraint firstItem="7Fw-Vh-Hab" firstAttribute="top" secondItem="s92-jt-eoV" secondAttribute="bottom" id="f2Z-ad-3sQ"/>
                             <constraint firstAttribute="trailing" secondItem="7Fw-Vh-Hab" secondAttribute="trailing" id="fUC-Pw-ES6"/>
                             <constraint firstItem="pa0-gG-k2d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="n46-16-Gr5"/>
-                            <constraint firstAttribute="bottom" secondItem="pa0-gG-k2d" secondAttribute="bottom" id="sG2-nv-mwX"/>
                             <constraint firstItem="gyp-5P-ABO" firstAttribute="top" secondItem="s92-jt-eoV" secondAttribute="bottom" id="w5c-Yn-Stt"/>
                             <constraint firstItem="gyp-5P-ABO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xPp-C9-IlX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="oPY-rg-3LQ"/>
-                    <size key="freeformSize" width="414" height="1200"/>
+                    <size key="freeformSize" width="414" height="1000"/>
                     <connections>
-                        <outlet property="anchorBottomScroll" destination="hrd-Tr-PXk" id="CCT-Mp-82s"/>
+                        <outlet property="anchorBottomScroll" destination="47r-08-p03" id="mA5-OY-fLi"/>
                         <outlet property="lblDescipcion" destination="1s0-X1-45q" id="oo3-pC-xqC"/>
                     </connections>
                 </viewController>
@@ -424,6 +424,9 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
