@@ -122,17 +122,41 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xfa-Jn-Qtj">
+                                        <rect key="frame" x="27" y="437" width="150" height="223.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="bUY-id-Gip"/>
+                                        </constraints>
+                                        <string key="text">Texto 1: Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77i-Kf-h5L">
+                                        <rect key="frame" x="236" y="437" width="150" height="223.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="HaK-gc-ZKQ"/>
+                                        </constraints>
+                                        <string key="text">Texto 2: Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstItem="7Rw-u6-f7U" firstAttribute="trailing" secondItem="1s0-X1-45q" secondAttribute="trailing" id="2fu-u1-bqx"/>
                                     <constraint firstItem="LHg-7I-pRn" firstAttribute="top" secondItem="1s0-X1-45q" secondAttribute="bottom" constant="70" id="3Fk-lN-bHJ"/>
-                                    <constraint firstItem="7Rw-u6-f7U" firstAttribute="top" secondItem="LHg-7I-pRn" secondAttribute="bottom" constant="402.5" id="BkM-54-C1v"/>
+                                    <constraint firstItem="Xfa-Jn-Qtj" firstAttribute="leading" secondItem="pa0-gG-k2d" secondAttribute="leading" constant="27" id="3KI-gx-WGu"/>
+                                    <constraint firstItem="Xfa-Jn-Qtj" firstAttribute="top" secondItem="LHg-7I-pRn" secondAttribute="bottom" constant="40.5" id="3up-Li-MHY"/>
                                     <constraint firstItem="1s0-X1-45q" firstAttribute="top" secondItem="pa0-gG-k2d" secondAttribute="top" constant="25" id="Gaw-0h-HGj"/>
                                     <constraint firstItem="x5I-pF-0bA" firstAttribute="top" secondItem="1s0-X1-45q" secondAttribute="bottom" constant="17" id="Inz-yc-agH"/>
                                     <constraint firstItem="1s0-X1-45q" firstAttribute="leading" secondItem="pa0-gG-k2d" secondAttribute="leading" constant="27" id="JtC-vb-c8G"/>
                                     <constraint firstItem="7Rw-u6-f7U" firstAttribute="leading" secondItem="1s0-X1-45q" secondAttribute="leading" id="OU2-3Q-NJi"/>
+                                    <constraint firstItem="77i-Kf-h5L" firstAttribute="top" secondItem="LHg-7I-pRn" secondAttribute="bottom" constant="40.5" id="P2d-9D-t7o"/>
                                     <constraint firstItem="x5I-pF-0bA" firstAttribute="trailing" secondItem="1s0-X1-45q" secondAttribute="trailing" id="QfG-b8-cvl"/>
+                                    <constraint firstItem="7Rw-u6-f7U" firstAttribute="top" secondItem="Xfa-Jn-Qtj" secondAttribute="bottom" constant="138.5" id="ZS4-Nz-hZ0"/>
+                                    <constraint firstItem="77i-Kf-h5L" firstAttribute="trailing" secondItem="1s0-X1-45q" secondAttribute="trailing" id="eJc-k3-qvO"/>
                                     <constraint firstItem="LHg-7I-pRn" firstAttribute="centerX" secondItem="pa0-gG-k2d" secondAttribute="centerX" id="ept-WH-CVa"/>
                                     <constraint firstAttribute="bottom" secondItem="7Rw-u6-f7U" secondAttribute="bottom" constant="200" id="hrd-Tr-PXk"/>
                                     <constraint firstAttribute="trailing" secondItem="1s0-X1-45q" secondAttribute="trailing" constant="28" id="zOt-mg-ihl"/>
